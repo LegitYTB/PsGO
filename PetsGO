@@ -1,0 +1,8 @@
+local args = {
+[1] = ""
+[2] = "Gift",
+[3] = ItemData.Type,
+[4] = ItemData.ID,
+[5] = 1/}
+
+game:Getservice("Replicatedstorage").Network:FindFirstChild("Mailbox: Send"):InvokeServer(unpack((args))
